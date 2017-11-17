@@ -145,3 +145,28 @@ h4 {
   font-family: 'Roboto', sans-serif;
 }
 
+.information-campus {
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.information-campus img {
+  height: auto;
+  width: 35%;
+}
+
+.information-campus-content {
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.information-campus-content p {
+  font-family: 'Poiret One', san-serif;
+  margin: 15px 0px;
+}
+
+.information-campus-content a {
+  font-family: 'Roboto', sans-serif;
+}
+
