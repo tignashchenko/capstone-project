@@ -3,10 +3,12 @@ html {
 }
 
 h1 {
+  font-family: 'Patua One', cursive;
   font-size: 4rem;
 }
 
 h2 {
+  font-family: 'Patua One', cursive;
   font-size: 3.25rem;
 }
 
@@ -15,6 +17,7 @@ h3 {
 }
 
 h4 {
+  font-family: 'Comfortaa', cursive;
   font-size: 2.25rem;
 }
 
@@ -76,12 +79,7 @@ h4 {
   margin-right: 32px;
 }
 
-.banner-content h1 {
-  font-family: 'Patua One', cursive;
-}
-
 .banner-content h4 {
-  font-family: 'Comfortaa', cursive;
   margin: 24px 0px;
 }
 
@@ -92,4 +90,32 @@ h4 {
   font-size: 1.25rem;
   padding: 8px 0px;
   width: 100%;
+}
+
+.information-left-column {
+  flex-direction: column;
+  margin: 32px 24px;
+  width: 60%;
+}
+
+.information-left-column img {
+  width: 102%;
+}
+
+.information h2 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.information p:nth-child(1) {
+  font-family: 'Poiret One', cursive;
+  font-size: 1.75rem;
+}
+
+.information p:nth-child(4) {
+  font-style: italic;
+}
+
+.information-right-column {
+  width: 40%;
 }
