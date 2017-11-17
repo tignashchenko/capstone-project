@@ -108,7 +108,7 @@ h4 {
 }
 
 .information p:nth-child(1) {
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One', sans-serif;
   font-size: 1.75rem;
 }
 
@@ -119,3 +119,29 @@ h4 {
 .information-right-column {
   width: 40%;
 }
+
+.information-orientation {
+  align-items: center;
+  margin-top: 32px;
+  margin-left: 24px;
+}
+
+.information-orientation img {
+  height: auto;
+  width: 35%;
+}
+
+.information-orientation-content {
+  flex-direction: column;
+  margin-left: 20px
+}
+
+.information-orientation-content p {
+  font-family: 'Poiret One', san-serif;
+  margin: 15px 0px;
+}
+
+.information-orientation-content a {
+  font-family: 'Roboto', sans-serif;
+}
+
