@@ -199,3 +199,12 @@ h4 {
   font-family: 'Roboto', sans-serif;
 }
 
+.courses {
+  background-color: #d8d8d8;
+}
+
+.courses-header h2 {
+  padding: 32px 0px;
+  text-align: center;
+}
+
