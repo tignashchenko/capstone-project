@@ -285,3 +285,45 @@ p {
   margin-top: 24px;
   margin-bottom: 8px;
 }
+
+.thesis-right-column {
+  margin-top: 32px;
+  width: 40%;
+}
+
+.thesis-fisma {
+  background-color: #d8d8d8;
+  align-items: center;
+}
+
+.thesis-fisma-image {
+  margin: 16px;
+  width: 35%;
+}
+
+.thesis-fisma-image img {
+  height: auto;
+  width: 100%;
+}
+
+.thesis-fisma-information h4 {
+  margin-bottom: 8px;
+}
+
+.thesis-now-and-then {
+  align-items: center;
+}
+
+.thesis-now-and-then-image {
+  margin: 16px;
+  width: 35%;
+}
+
+.thesis-now-and-then-image img {
+  height: auto;
+  width: 100%;
+}
+
+.thesis-now-and-then-information h4 {
+  margin-bottom: 8px;
+}
