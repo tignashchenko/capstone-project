@@ -216,7 +216,7 @@ p {
 
 .course {
   background-color: #ffffff;
-  max-width: 31%;
+  width: 31%;
 }
 
 .course img {
@@ -262,4 +262,26 @@ p {
 
 .courses-content div:nth-child(6) {
   margin-bottom: 32px;
+}
+
+.thesis-header h2 {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.thesis-left-column {
+  width: 60%;
+}
+
+.thesis-left-column-content {
+  margin: 32px 24px;
+}
+
+.thesis-left-column-content video {
+  width: 100%;
+}
+
+.thesis-left-column-content h4 {
+  margin-top: 24px;
+  margin-bottom: 8px;
 }
