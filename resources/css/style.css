@@ -327,3 +327,22 @@ p {
 .thesis-now-and-then-information h4 {
   margin-bottom: 8px;
 }
+
+.footer-content {
+  justify-content: space-between;
+  margin: 16px 24px;
+}
+
+.footer-copyright-information p {
+  font-family: 'Inconsolata', monospace; 
+}
+
+.terms-privacy {
+  word-spacing: 10px;
+}
+
+.terms-privacy a {
+  color: #4a4a4a;
+  font-family: 'Inconsolata', monospace;
+  text-decoration: none; 
+}
