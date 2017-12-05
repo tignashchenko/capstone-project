@@ -115,6 +115,10 @@ p {
   margin-bottom: 24px;
 }
 
+.information-campus-mobile {
+  display: none;
+}
+
 .information p:nth-child(1) {
   font-family: 'Poiret One', sans-serif;
   font-size: 1.75rem;
@@ -153,6 +157,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.information-orientation-mobile {
+  display: none;
+}
+
 .information-campus {
   align-items: center;
   margin-top: 32px;
@@ -183,6 +191,10 @@ p {
   background-color: #d8d8d8;
   margin-top: 32px;
   margin-left: 24px;
+}
+
+.information-guest-lecture-mobile {
+  display: none;
 }
 
 .information-guest-lecture img {
@@ -385,6 +397,73 @@ p {
   button {
     margin-right: 16px;
     margin-left: 16px;
+    margin-bottom: 32px;
+  }
+
+  .information-left-column {
+    display: none;
+  }
+  .information-right-column {
+    width: 100%;
+  }
+  
+  .information-orientation {
+    flex-direction: column;
+  }
+  
+  .information-orientation img {
+    display: none;
+  }
+
+  img.information-orientation-mobile {
+    display: block;
+    margin-right: 2.5rem;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: -16px;
+    width: 100%;
+  }
+
+  .information-campus {
+    flex-direction: column;
+  }
+
+  .information-campus img {
+    display: none;
+  }
+
+  img.information-campus-mobile {
+    display: block;
+    margin-right: 2.5rem;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: -16px;
+    width: 100%;
+  }
+
+  .information-campus-content {
+    margin-right: 2.6rem;
+  }
+
+  .information-guest-lecture img {
+    display: none;
+  }
+
+  .information-guest-lecture {
+    background-color: transparent;
+    flex-direction: column;
+  }
+
+  img.information-guest-lecture-mobile {
+    display: block;
+    margin-right: 2.5rem;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    margin-top: -16px;
+    width: 100%;
+  }
+
+  .information-guest-lecture-content {
     margin-bottom: 32px;
   }
 }
