@@ -357,6 +357,34 @@ p {
   }
   .header-mobile {
     display: flex;
+    height: 64px;
     justify-content: space-around;
+  }
+
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-left-column {
+    margin: auto;
+    width: 100%;
+  }
+
+  .banner-content h1 {
+    font-size: 41px;
+    margin: 32px 16px;
+  }
+
+  .banner-content h4 {
+    font-size: 17px;
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 24px;
+  }
+
+  button {
+    margin-right: 16px;
+    margin-left: 16px;
+    margin-bottom: 32px;
   }
 }
