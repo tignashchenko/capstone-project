@@ -35,6 +35,10 @@ p {
   margin: 0 24px;
 }
 
+.header-mobile {
+  display: none;
+}
+
 .logo {
   align-items: center;
 }
@@ -345,4 +349,14 @@ p {
   color: #4a4a4a;
   font-family: 'Inconsolata', monospace;
   text-decoration: none; 
+}
+
+@media only screen and (max-width: 500px) {
+  .header {
+    display: none;
+  }
+  .header-mobile {
+    display: flex;
+    justify-content: space-around;
+  }
 }
