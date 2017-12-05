@@ -216,6 +216,10 @@ p {
   font-family: 'Roboto', sans-serif;
 }
 
+.courses-mobile {
+  display: none;
+}
+
 .courses {
   background-color: #d8d8d8;
 }
@@ -465,5 +469,28 @@ p {
 
   .information-guest-lecture-content {
     margin-bottom: 32px;
+  }
+
+  .courses-content {
+    display: none;
+  }
+
+  .courses {
+    background-color: transparent;
+  }
+
+  .courses-header h2 {
+    margin-top: 32px;
+    margin-bottom: 16px;
+  }
+
+  .courses-mobile {
+    display: block;
+  }
+
+  .courses-mobile h4 {
+    background-color: #d8d8d8;
+    margin: 8px;
+    padding: 16px;
   }
 }
