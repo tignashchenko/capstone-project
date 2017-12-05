@@ -284,6 +284,10 @@ p {
   margin-bottom: 32px;
 }
 
+.thesis-mobile {
+  display: none;
+}
+
 .thesis-header h2 {
   margin-top: 32px;
   text-align: center;
@@ -492,5 +496,32 @@ p {
     background-color: #d8d8d8;
     margin: 8px;
     padding: 16px;
+  }
+
+  .thesis-header h2 {
+    font-size: 3rem;
+  }
+
+  .thesis-content {
+    display: none;
+  }
+
+  .thesis-mobile {
+    display: block;
+  }
+
+  video {
+    margin-top: 16px;
+    margin-bottom: 24px;
+    width: 100%;
+  }
+
+  .terms-privacy {
+    display: none;
+  }
+
+  .footer-copyright-information p {
+    font-size: 0.8rem;
+    margin: 16px auto;
   }
 }
